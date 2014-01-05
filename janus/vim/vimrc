@@ -36,3 +36,6 @@ exe 'source ' . g:janus_vim_path . '/core/plugins.vim'
 call janus#load_pathogen()
 
 " .vimrc.after is loaded after the plugins have loaded
+set tabstop=4 shiftwidth=4 softtabstop=4
+noremap <leader>1 gT
+noremap <leader>2 gt

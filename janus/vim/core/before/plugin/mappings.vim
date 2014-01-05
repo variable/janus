@@ -163,3 +163,7 @@ cnoremap <expr> <C-P> getcmdline()[getcmdpos()-2] ==# ' ' ? expand('%:p:h') : "\
 
 " Kills Trailing Whitespaces
 command! KillWhitespace :normal :%s/ *$//g<cr><c-o><cr>
+
+" Tab navigation
+noremap <leader>1 gT
+noremap <leader>2 gt

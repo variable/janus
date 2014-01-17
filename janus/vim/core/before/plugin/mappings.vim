@@ -165,5 +165,7 @@ cnoremap <expr> <C-P> getcmdline()[getcmdpos()-2] ==# ' ' ? expand('%:p:h') : "\
 command! KillWhitespace :normal :%s/ *$//g<cr><c-o><cr>
 
 " Tab navigation
-noremap <leader>1 gT
-noremap <leader>2 gt
+noremap <C-h> <C-w><Left>
+noremap <C-l> <C-w><Right>
+noremap <leader>[ gT
+noremap <leader>] gt

@@ -73,3 +73,4 @@ set wildignore+=*.swp,*~,._*
 set backupdir^=~/.vim/_backup//    " where to put backup files.
 set directory^=~/.vim/_temp//      " where to put swap files.
 set noswapfile
+let g:flake8_ignore="W801,E128,E501,W402,F403"

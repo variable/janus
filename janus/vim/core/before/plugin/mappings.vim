@@ -169,3 +169,4 @@ noremap <C-h> <C-w><Left>
 noremap <C-l> <C-w><Right>
 noremap <leader>[ gT
 noremap <leader>] gt
+nnoremap <F2> :set nonumber!<CR>

@@ -73,4 +73,5 @@ set wildignore+=*.swp,*~,._*
 set backupdir^=~/.vim/_backup//    " where to put backup files.
 set directory^=~/.vim/_temp//      " where to put swap files.
 set noswapfile
+set clipboard=unnamed
 let g:syntastic_python_flake8_post_args='--ignore=W801,E128,E501,W402,F403'
